@@ -1,0 +1,16 @@
+augmentation:
+  scale_range: 0.4
+  theta_range: 40.0
+batch_size: 16
+epochs: 20
+heatmap_sigma: 2.0
+initial_weights_path:
+  - "weights"
+  - "hrnet_jhmdb_coco_init.pth"
+learning_rates:
+  start: 1.0e-5
+  decay: 0.1
+  steps: []
+optimizer:
+  type: "Adam"
+val_fraction: 0.2

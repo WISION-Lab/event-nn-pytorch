@@ -1,0 +1,11 @@
+Conventional
+Accuracy: 97.77%
+Ops: 1.988e+05
+
+Sparse
+Accuracy: 97.77%
+Ops: 5.396e+04
+
+Event
+Accuracy: 97.50%
+Ops: 3.622e+04

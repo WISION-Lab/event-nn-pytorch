@@ -1,0 +1,4 @@
+flip: false
+thresholds:
+  event: [0.05, 0.1, 0.2]
+  memory_loss: [0.05, 0.1, 0.2]

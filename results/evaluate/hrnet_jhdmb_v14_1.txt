@@ -1,0 +1,7 @@
+Conventional
+PCK: 0.9019
+Ops: 1.019e+10
+
+Sparse
+PCK: 0.9019
+Ops: 4.131e+09

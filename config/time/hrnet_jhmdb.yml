@@ -1,0 +1,5 @@
+flip: false
+conventional_sparse: false
+thresholds:
+  event: [0.1]
+  memory_loss: []

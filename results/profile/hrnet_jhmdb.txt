@@ -1,0 +1,39 @@
+Conventional, non-sparse, standard convolution, CPU
+Ops: 1.019e+10
+Wall time: 0.2059
+
+Conventional, non-sparse, standard convolution, CUDA
+Ops: 1.019e+10
+Wall time: 0.0337
+
+Event, sparse, standard convolution, CPU
+Ops: 4.898e+08
+Wall time: 0.3018
+
+Event, sparse, standard convolution, CUDA
+Ops: 4.875e+08
+Wall time: 0.0619
+
+Conventional, non-sparse, unrolled convolution, CPU
+Ops: 1.019e+10
+Wall time: 0.8160
+
+Conventional, non-sparse, unrolled convolution, CUDA
+Ops: 1.019e+10
+Wall time: 0.0483
+
+Event, sparse, unrolled convolution, CPU
+Ops: 4.9e+08
+Wall time: 0.7531
+
+Event, sparse, unrolled convolution, CUDA
+Ops: 4.89e+08
+Wall time: 0.1198
+
+Conventional, non-sparse, custom convolution, CPU
+Ops: 1.019e+10
+Wall time: 1.8136
+
+Event, sparse, custom convolution, CPU
+Ops: 4.892e+08
+Wall time: 0.3070

@@ -1,0 +1,15 @@
+^dense_([12])_weights
+hidden_\1.0.linear.weight
+1,0
+
+^dense_([12])_biases
+hidden_\1.2.bias
+-
+
+^dense_3_weights
+output.0.linear.weight
+1,0
+
+^dense_3_biases
+output.2.bias
+-

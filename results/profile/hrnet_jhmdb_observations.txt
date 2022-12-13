@@ -1,0 +1,15 @@
+With standard convolution the main EvNet overheads come from policy computations
+and state updates (abs, add_, gt, sub, mul, sub_).
+
+With unrolled convolution the main EvNet overheads come from selecting into the
+unrolled matrix (index, index_put_, any), along with policy computations and
+state updates (abs, add_, gt, sub, mul, sub_)
+
+Unrolling on the CPU is very expensive (50-60% of overall runtime).
+
+The matrix multiplication algorithms seem to be very well optimized, such that
+with unrolled convolution the majority of the time is spent on other operations.
+This limits the benefits we can attain by speeding up the matrix multiplication.
+
+Matrix multiplications are significantly faster using the sparse unrolled
+algorithms, but the savings are outweighed by other overhead costs in the EvNet.

@@ -1,0 +1,3 @@
+Conventional ops: 1.019e+10
+Sparse ops: 4.231e+09
+Event ops: 8.824e+08

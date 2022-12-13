@@ -1,0 +1,31 @@
+Conventional
+PCK: 0.9137
+Ops: 1.019e+10
+
+Sparse
+PCK: 0.9137
+Ops: 4.142e+09
+
+Event with threshold 0.05
+PCK: 0.9154
+Ops: 1.14e+09
+
+Event with threshold 0.1
+PCK: 0.9185
+Ops: 7.571e+08
+
+Event with threshold 0.2
+PCK: 0.8805
+Ops: 4.308e+08
+
+Memory loss with threshold 0.05
+PCK: 0.9039
+Ops: 1.064e+09
+
+Memory loss with threshold 0.1
+PCK: 0.8585
+Ops: 6.681e+08
+
+Memory loss with threshold 0.2
+PCK: 0.7988
+Ops: 3.41e+08

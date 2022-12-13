@@ -1,2 +1,6 @@
 # Sorted in ascending order
 .DS_Store
+.idea
+__pycache__
+outputs
+tensorboard

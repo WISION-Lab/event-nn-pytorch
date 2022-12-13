@@ -1,0 +1,19 @@
+name: event-nn-pytorch
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - av=9.1
+  - matplotlib=3.5
+  - ninja=1.10
+  - numpy=1.21
+  - pip=21.2
+  - python=3.9
+  - pytorch=1.11
+  - pyyaml=6.0
+  - scipy=1.7
+  - tensorboard=2.6
+  - torchvision=0.12
+  - pip:
+      - opencv-python==4.5.4.*
